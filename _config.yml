@@ -1,0 +1,30 @@
+title: "Aaron McKeever"
+email: "adm2216@columbia.edu"
+description: >- 
+  Columbia student in Information Science & German Lit • Research • Design • AI
+baseurl: ""
+url: "https://adm-2k.github.io"
+theme: "minimal-mistakes-jekyll"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+author:
+  name: "Aaron McKeever"
+  avatar: "/assets/images/avatar.png"  # Optional headshot
+  bio: "Student. Researcher. Designer. AI practitioner."
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:adm2216@columbia.edu"
+    - label: "Resume"
+      icon: "fas fa-file"
+      url: "/assets/assets/Aaron McKeever - May 2025.pdf"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/adm-2k"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/aaron-mckeever-75029b179/"
+
+markdown: kramdown
