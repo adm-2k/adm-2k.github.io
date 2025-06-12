@@ -4,8 +4,10 @@ description: >-
   Columbia student in Information Science & German Lit • Research • Design • AI
 baseurl: ""
 url: "https://adm-2k.github.io"
-theme: "minimal-mistakes-jekyll"
+# theme: "minimal-mistakes-jekyll"
+remote_theme: pages-themes/leap-day@v0.2.0
 plugins:
+  - jekyll-remote-theme 
   - jekyll-feed
   - jekyll-seo-tag
 
@@ -19,7 +21,7 @@ author:
       url: "mailto:adm2216@columbia.edu"
     - label: "Resume"
       icon: "fas fa-file"
-      url: "/assets/assets/assets/McKeeverMay2025.pdf.pdf"
+      url: "/assets/assets/assets/McKeeverMay2025.pdf"
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/adm-2k"
