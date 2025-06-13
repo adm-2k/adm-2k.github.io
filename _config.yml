@@ -4,24 +4,49 @@ description: >-
   Columbia student in Information Science & German Lit • Research • Design • AI
 baseurl: ""
 url: "https://adm-2k.github.io"
-# theme: "minimal-mistakes-jekyll"
-remote_theme: pages-themes/leap-day@v0.2.0
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+# theme: "minimal-mistakes-jekyll"  # Uncomment for local testing
+
 plugins:
-  - jekyll-remote-theme 
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-include-cache
+  - jekyll-remote-theme
 
+# Site Layout
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Site Author
 author:
   name: "Aaron McKeever"
-  avatar: "/assets/images/avatar.png"  # Optional headshot
+  avatar: "/assets/images/avatar.png"
   bio: "Student. Researcher. Designer. AI practitioner."
+  location: "NYC"
   links:
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:adm2216@columbia.edu"
     - label: "Resume"
-      icon: "fas fa-file"
-      url: "/assets/assets/assets/McKeeverMay2025.pdf"
+      icon: "fas fa-file-alt"
+      url: "/assets/McKeeverMay2025.pdf"
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/adm-2k"
@@ -30,3 +55,11 @@ author:
       url: "https://linkedin.com/in/aaron-mckeever-75029b179/"
 
 markdown: kramdown
+include:
+  - _pages
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
