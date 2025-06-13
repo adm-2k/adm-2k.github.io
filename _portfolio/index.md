@@ -8,4 +8,4 @@ classes:
   - wide
 ---
 
-Welcome to my portfolio! Here you'll find a selection of my projects in AI, design, and research.
+Welcome to my portfolio! Here you'll find a selection of my projects in NLP, UX/UI design, and academic research.
