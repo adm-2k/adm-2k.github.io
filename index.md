@@ -32,7 +32,9 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
-# Hello, I'm Aaron
+# Welcome 
+
+##  Hello, I'm Aaron
 
 I'm a recent graduate from Columbia University with a BA in Information Science and German Literature and Cultural History. My interests lie in computational linguistics, discourse analysis, and philosophy of language. My work focuses on the intersection of technology and human language, with particular emphasis on how computational methods can enhance our understanding of linguistic patterns and cultural phenomena.
 
