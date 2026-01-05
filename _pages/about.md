@@ -6,7 +6,7 @@ author_profile: true
 toc: true
 toc_sticky: true
 header:
-  overlay_image: /assets/images/about-header.jpg
+  overlay_image: /assets/IMG_2048.jpeg
   overlay_filter: 0.5
 ---
 
