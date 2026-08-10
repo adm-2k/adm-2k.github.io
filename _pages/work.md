@@ -6,8 +6,9 @@ redirect_from:
   - /portfolio/
   - /portfolio/index/
 lede: >-
-  What I've built, taught, researched, and designed, with links where they
-  exist. The one-page version is on the <a href="/resume/">résumé</a> page.
+  What I've built, taught, researched, and designed. Nearly all of it with
+  other people — I've tried to mark my own part honestly. The one-page
+  version is on the <a href="/resume/">résumé</a> page.
 ---
 
 ## Software
@@ -15,23 +16,24 @@ lede: >-
 ### Participant-management platform — The Upskilling Labs
 <p class="meta">Next.js · 2026– · in production</p>
 
-The Upskilling Labs holds twice-weekly technology and project-management
-workshops, about thirty sessions and five hundred participants in a cycle.
-I build and maintain the platform the program runs on: registration and
+The Upskilling Labs has run thirty-five-odd events so far this year —
+workshops, hackathons, summits — reaching about five hundred people. I help
+build and maintain the platform the programs run on: registration and
 application intake, milestone tracking, feedback collection, and user
-management across the participant lifecycle. Most weeks that also means
-content updates, small fixes, and support.
+management. Most weeks that means content updates, small fixes, and support,
+shared with the rest of the team.
 
 ### CIB Mango Tree — Civic Tech DC
 <p class="meta">Python, NLP · open source · 2025–</p>
 
 A tool for detecting coordinated inauthentic behavior in social-media
 datasets, developed in public by volunteers at
-[Civic Tech DC](https://civictechdc.org). So far I've contributed tokenizer
-improvements, most of the current project documentation, and a whitepaper
-proposing multilingual support. With the organization's
-director I am also planning a Civic Tech Academy, an educational program
-meant to move skills between project teams.
+[Civic Tech DC](https://civictechdc.org). I'm one contributor among several;
+so far that has meant tokenizer improvements, edits to the documentation,
+some video work, and a whitepaper proposing multilingual support that is
+still in draft. With the organization's director I am also sketching a Civic
+Tech Academy, an educational program meant to move skills between project
+teams.
 
 ### Media-intake automation — Storyboard Studios
 <p class="meta">Python, Bash · 2025</p>
@@ -59,10 +61,10 @@ slides. The materials are public:
 ### Programming & events — The Upskilling Labs
 <p class="meta">Working board · 2026–</p>
 
-I co-run the workshop program end to end: scheduling and logistics for
-twice-weekly sessions, mentor and partner outreach, a three-month curriculum
-written with my co-lead, and the memos and documentation that keep
-facilitators and participants oriented across twenty-plus events.
+With my co-lead I run the workshop program end to end: scheduling and
+logistics, mentor and partner outreach, a three-month curriculum we wrote
+together, and the memos and documentation that keep facilitators and
+participants oriented across this year's thirty-five events.
 
 ---
 
@@ -84,6 +86,23 @@ A two-summer fellowship measuring how five German political parties
 differentiate themselves in language, using the WZB Manifesto Project
 corpus. I wrote the proposal, ran the analysis in Python, and presented the
 results at an undergraduate research fair.
+
+### Collecting and hoarding — with Dr. Annie Pfeifer
+<p class="meta">Research assistance · German studies · 2021–2023</p>
+
+For *To the Collector Belong the Spoils: Modernism and the Art of
+Appropriation*, Dr. Pfeifer's study of modernist writers as collectors,
+hoarders, and appropriators, I tracked down sources and compiled research —
+Walter Benjamin above all. My name is in the foreword, which still pleases
+me.
+
+### Fordism in interwar Germany
+<p class="meta">In progress · begun at the Freie Universität Berlin</p>
+
+A project that started in a Berlin pro-seminar: how Fordism arrived in
+Germany between the wars and what it did to labor relations and political
+discourse. It has sat dormant longer than I'd like, and getting it moving
+again is on this year's list.
 
 ---
 

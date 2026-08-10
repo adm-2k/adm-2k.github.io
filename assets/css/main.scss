@@ -12,33 +12,37 @@
    theme toggle all degrade to nothing on older browsers or without JS.
    ========================================================================== */
 
+/* Palette: Prussian blue on cool paper. The pigment was first made in
+   Berlin around 1706; it suits a site that keeps returning to German
+   intellectual history, and it prints well in both themes. */
+
 @mixin light-tokens {
-  --paper: #FAF7F1;
-  --paper-raised: #FFFEFB;
-  --paper-veil: rgba(250, 247, 241, 0.88);
-  --ink: #1F1B16;
-  --ink-soft: #57503F;
-  --ink-faint: #8A8171;
-  --accent: #B04A17;
-  --accent-soft: #D96C2C;
-  --hairline: rgba(31, 27, 22, 0.14);
-  --hairline-strong: rgba(31, 27, 22, 0.28);
-  --card-shadow: 0 1px 2px rgba(31, 27, 22, 0.05);
-  --card-shadow-hover: 0 6px 24px rgba(31, 27, 22, 0.10);
+  --paper: #F6F6F3;
+  --paper-raised: #FFFFFF;
+  --paper-veil: rgba(246, 246, 243, 0.88);
+  --ink: #1A1D24;
+  --ink-soft: #494F5C;
+  --ink-faint: #7A8090;
+  --accent: #1E4E79;
+  --accent-soft: #4878A8;
+  --hairline: rgba(26, 29, 36, 0.14);
+  --hairline-strong: rgba(26, 29, 36, 0.28);
+  --card-shadow: 0 1px 2px rgba(26, 29, 36, 0.05);
+  --card-shadow-hover: 0 6px 24px rgba(26, 29, 36, 0.10);
   color-scheme: light;
 }
 
 @mixin dark-tokens {
-  --paper: #171310;
-  --paper-raised: #201B16;
-  --paper-veil: rgba(23, 19, 16, 0.85);
-  --ink: #EDE7DC;
-  --ink-soft: #B5AB9A;
-  --ink-faint: #857B69;
-  --accent: #E58A50;
-  --accent-soft: #C96B33;
-  --hairline: rgba(237, 231, 220, 0.16);
-  --hairline-strong: rgba(237, 231, 220, 0.32);
+  --paper: #101319;
+  --paper-raised: #171C24;
+  --paper-veil: rgba(16, 19, 25, 0.85);
+  --ink: #E7E9EC;
+  --ink-soft: #A6ADB8;
+  --ink-faint: #6C7482;
+  --accent: #8FB4DC;
+  --accent-soft: #5E8BBD;
+  --hairline: rgba(231, 233, 236, 0.16);
+  --hairline-strong: rgba(231, 233, 236, 0.32);
   --card-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   --card-shadow-hover: 0 6px 24px rgba(0, 0, 0, 0.45);
   color-scheme: dark;

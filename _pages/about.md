@@ -13,10 +13,12 @@ lede: >-
 ## Now
 
 I co-lead programming and events at
-[The Upskilling Labs](https://theupskillinglabs.org), where I also maintain
-the platform behind the program, and I contribute to open-source work at
-[Civic Tech DC](https://civictechdc.org). On alternating weeks I teach a
-GitHub workshop for people moving into technical work from other fields.
+[The Upskilling Labs](https://theupskillinglabs.org) — thirty-five-odd
+events reaching about five hundred people so far this year — and help
+maintain the platform behind the program. At
+[Civic Tech DC](https://civictechdc.org) I contribute to open-source work
+alongside a good group of volunteers, and on alternating weeks I teach a
+GitHub workshop for people coming to technical work from other fields.
 
 ## How I got here
 
@@ -28,6 +30,12 @@ hundred-thousand-document public-health corpus at the Health Language Lab —
 used computational methods to ask the seminar's questions: how institutions
 speak, and what that speech does.
 
+The seminar side produced its own work. I did research assistance for
+Dr. Annie Pfeifer's *To the Collector Belong the Spoils*, a study of
+modernist writers as collectors and hoarders — my name is in the foreword —
+and started a project on Fordism's arrival in interwar Germany at the
+Freie Universität that I still mean to finish.
+
 Before college I spent a year in Tübingen on a State Department exchange,
 interning in the Bundestag; during college, another year in Berlin at the
 Freie Universität. German politics is still the example I reach for first.
@@ -38,9 +46,11 @@ how design and engineering argue with each other and how weekly deadlines
 settle the argument. Our readers numbered in the hundreds of thousands and
 did not care about our process.
 
-After graduating I moved to Washington and found that civic technology
-needed both halves: someone to fix the tokenizer and someone to run the
-onboarding session. I like being the same person for both.
+After graduating I moved to Washington. The work I care about sits where
+new tools meet public institutions — adopting them critically, and to some
+actual public benefit, rather than because they are new. In practice that
+means fixing a tokenizer some days and running an onboarding session on
+others; I like being the same person for both.
 
 ## Outside work
 

@@ -4,11 +4,13 @@ permalink: /
 role_line: "Technologist & organizer · Washington, DC"
 intro: >-
   Most of my week goes to [The Upskilling Labs](https://theupskillinglabs.org),
-  a workforce-development nonprofit where I co-lead the workshop program and
-  maintain the platform that runs it, and to [Civic Tech DC](https://civictechdc.org),
-  where I contribute to an open-source research tool. Before Washington I was
-  at Columbia, studying information science and German literature and designing
-  news products at the *Daily Spectator*.
+  a workforce-development nonprofit where I help run the workshop program and
+  co-maintain the platform behind it, and to
+  [Civic Tech DC](https://civictechdc.org), where I pitch in on an open-source
+  research tool. Holding it together is an interest I brought from Columbia,
+  where I studied information science and German literature: how new
+  technologies get taken up by people and institutions, and how to make that
+  adoption count for the public.
 hero_links:
   - label: "GitHub"
     url: "https://github.com/adm-2k"
@@ -22,41 +24,47 @@ hero_links:
     url: "/resume/"
 now:
   - >-
-    Running programming and events at The Upskilling Labs — about thirty
-    workshops and five hundred participants each cycle, plus the Next.js
-    platform that handles registration and milestone tracking.
+    Helping run programming and events at The Upskilling Labs —
+    thirty-five-odd workshops, hackathons, and summits so far this year,
+    reaching about five hundred people — and co-maintaining the platform
+    behind them.
   - >-
-    Contributing to CIB Mango Tree at Civic Tech DC. Recent work: tokenizer
-    fixes, documentation, and a whitepaper on multilingual support.
+    Pitching in on CIB Mango Tree at Civic Tech DC: tokenizer fixes,
+    documentation edits, some video work, and a whitepaper on multilingual
+    support that is still in draft.
   - >-
-    Teaching a recurring GitHub workshop for people moving into technical
+    Teaching a recurring GitHub workshop for people coming to technical
     work from other fields.
+  - >-
+    Trying to get the Fordism project — interwar Germany, begun at the
+    Freie Universität — moving again.
 projects:
   - tag: "Software"
     title: "Participant-management platform"
     url: "https://theupskillinglabs.org"
     blurb: >-
-      The Upskilling Labs runs its programs on this platform: registration,
-      application intake, milestone tracking, and feedback for roughly five
-      hundred participants a cycle. I build and maintain it.
+      The Upskilling Labs runs registration, application intake, and
+      milestone tracking for its programs on this platform. I help build
+      and maintain it with the rest of the team — content, user management,
+      small fixes, support.
     meta: "Next.js · The Upskilling Labs · 2026–"
   - tag: "Open source"
     title: "CIB Mango Tree"
     url: "https://civictechdc.org"
     blurb: >-
       An open-source tool for detecting coordinated inauthentic behavior in
-      social-media datasets. I have improved its tokenizer, written much of
-      the documentation, and drafted a whitepaper proposing multilingual
-      support.
+      social-media datasets, built by volunteers at Civic Tech DC. My part is
+      modest and ongoing: tokenizer improvements, documentation edits, video,
+      and a whitepaper on multilingual support, currently in draft.
     meta: "Python · Civic Tech DC · 2025–"
-  - tag: "Teaching"
-    title: "GitHub for Team Collaboration"
-    url: "https://github.com/adm-2k/workshop-template"
+  - tag: "Humanities"
+    title: "Benjamin, collecting, and Fordism"
     blurb: >-
-      A workshop series on version control and collaboration for people who
-      don't come from software. It assumes no programming background and works
-      on real repositories. The materials are public.
-    meta: "Curriculum & instruction · recurring"
+      Research assistance for Dr. Annie Pfeifer's *To the Collector Belong
+      the Spoils*, a study of modernist writers as collectors and hoarders —
+      my name is in the foreword — and a slower project on Fordism's arrival
+      in interwar Germany, begun at the Freie Universität Berlin.
+    meta: "German studies · 2021–"
   - tag: "Design"
     title: "Columbia Daily Spectator"
     url: "https://www.columbiaspectator.com/"

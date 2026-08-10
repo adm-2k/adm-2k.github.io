@@ -11,11 +11,12 @@ lede: >-
 ## Outline
 
 - **The Upskilling Labs** (2026–) — Programming & events co-lead. About
-  thirty workshops and five hundred participants a cycle; I also build and
-  maintain the Next.js participant-management platform and teach a recurring
-  GitHub workshop.
+  thirty-five events and five hundred participants so far this year; I help
+  maintain the Next.js participant platform and teach a recurring GitHub
+  workshop.
 - **Civic Tech DC, CIB Mango Tree** (2025–) — Open-source contributor:
-  tokenizer improvements, documentation, a whitepaper on multilingual support.
+  tokenizer improvements, documentation edits, video, and a multilingual-support
+  whitepaper in draft.
 - **Storyboard Studios** (2025) — Documentary post-production; intake
   automation that cut processing time by about forty percent.
 - **Columbia Daily Spectator** (2020–2023) — Product design section lead for
