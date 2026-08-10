@@ -3,11 +3,8 @@ title: "Writing"
 permalink: /writing/
 redirect_from:
   - /posts/
-kicker: "Notes & essays"
 lede: >-
-  Occasional notes on civic tech, teaching, open source, and language.
-  Plain Markdown, no algorithm — subscribe by
-  <a href="/feed.xml">RSS</a> if you'd like.
+  Notes, written occasionally. There is an <a href="/feed.xml">RSS feed</a>.
 ---
 
 <ul class="post-list">

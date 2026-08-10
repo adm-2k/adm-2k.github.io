@@ -1,71 +1,63 @@
 ---
 title: "About"
 permalink: /about/
-kicker: "Who I am"
 lede: >-
-  Technologist, organizer, and occasional photographer in Washington, DC.
-  I like the work that sits between code and people.
+  I live in Washington, DC, and split my time between a
+  workforce-development nonprofit and the city's civic-tech community.
 ---
 
 <figure class="portrait">
   <img src="/assets/images/portrait.jpg" alt="Aaron McKeever in profile, standing among greenhouse plants" width="1400" height="933">
 </figure>
 
-## The short version
+## Now
 
-- **Now:** Programming & Events Co-Lead at [The Upskilling Labs](https://theupskillinglabs.org);
-  open-source contributor at [Civic Tech DC](https://civictechdc.org); recurring
-  Git/GitHub workshop instructor.
-- **Before:** Product design lead at the Columbia Daily Spectator; CDC-funded
-  NLP research at Columbia's Health Language Lab; Laidlaw Research Fellow.
-- **Education:** Columbia University '25 — B.A. in Information Science
-  (Computer Science department) and German Literature & Cultural History.
-- **Languages:** English (native), German (C1), Spanish (B1).
+I co-lead programming and events at
+[The Upskilling Labs](https://theupskillinglabs.org), where I also maintain
+the platform behind the program, and I contribute to open-source work at
+[Civic Tech DC](https://civictechdc.org). On alternating weeks I teach a
+GitHub workshop for people moving into technical work from other fields.
 
-## The longer version
+## How I got here
 
-I studied two things at Columbia that most people file in different drawers:
-information science and German literature. The common thread was always
-language — how it's structured, how it moves people, and what computers can
-and can't tell us about it. That thread ran through a State Department
-CBYX exchange year in Tübingen (with an internship in the Bundestag under the
-SPD), a year at the Freie Universität Berlin as a Berlin Consortium scholar,
-and research fellowships that had me analyzing everything from German party
-platforms to a 100,000-document corpus of public-health discourse.
+At Columbia I studied information science and German literature at the same
+time, which meant problem sets on one side of campus and seminars on
+Benjamin and Adorno on the other. The two turned out to share a subject.
+My research work — party platforms for a Laidlaw fellowship, a
+hundred-thousand-document public-health corpus at the Health Language Lab —
+used computational methods to ask the seminar's questions: how institutions
+speak, and what that speech does.
 
-The other thread was the student newspaper. Three years on the Columbia Daily
-Spectator's product team taught me what shipping actually means: weekly
-deadlines, a cross-functional team of designers and engineers, and hundreds of
-thousands of readers who don't care about your process — only whether the thing
-works. I ended as Section Lead, running a team of 28 and training the next
-cohort.
+Before college I spent a year in Tübingen on a State Department exchange,
+interning in the Bundestag; during college, another year in Berlin at the
+Freie Universität. German politics is still the example I reach for first.
 
-After graduating I moved to Washington, DC, and found the place where those
-threads braid together: **civic technology**. Now I spend my time building the
-platform and programs at a workforce-development nonprofit, contributing to
-open-source projects at Civic Tech DC, and teaching GitHub workflows to people
-who are switching into technical careers.
+The other formative thing was the student newspaper. Three years on the
+Columbia Daily Spectator's product team, the last as section lead, taught me
+how design and engineering argue with each other and how weekly deadlines
+settle the argument. Our readers numbered in the hundreds of thousands and
+did not care about our process.
 
-What I've learned, and what this site tries to show: the gap between "technical
-work" and "community work" is smaller than it looks. A tokenizer improvement
-and a well-run onboarding session are the same job — making a system legible
-enough that more people can participate in it.
+After graduating I moved to Washington and found that civic technology
+needed both halves: someone to fix the tokenizer and someone to run the
+onboarding session. I like being the same person for both.
 
-## Beyond work
+## Outside work
 
-I photograph people and places ([selected work](https://adm2216.myportfolio.com/)),
-wander art museums, hike when I can, and still reread Walter Benjamin —
-these days on the Metro instead of in Central Park.
+I photograph people and places
+([a selection](https://adm2216.myportfolio.com/)), wander museums, hike when
+I can, and still reread Walter Benjamin — on the Metro now instead of in
+Central Park.
 
 ## Recognition
 
-- Deutsches Haus Senior Departmental Prize (one graduating senior per year)
+- Deutsches Haus Senior Departmental Prize, one graduating senior a year
 - Data for Good Fellowship, Columbia Data Science Institute
 - Laidlaw Foundation Research Fellowship
 - Berlin Consortium for German Studies Scholar
 
-## Get in touch
+## Contact
 
-Email is best: [adm2216@columbia.edu](mailto:adm2216@columbia.edu).
+Email works best: [adm2216@columbia.edu](mailto:adm2216@columbia.edu).
 I'm also on [GitHub](https://github.com/adm-2k) and
 [LinkedIn](https://linkedin.com/in/adm2216).

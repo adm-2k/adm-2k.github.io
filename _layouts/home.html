@@ -2,16 +2,16 @@
 layout: default
 ---
 <section class="hero">
-  <p class="kicker">{{ page.kicker }}</p>
-  <h1 class="hero-headline">{{ page.headline }}</h1>
+  <h1 class="hero-name">Aaron <em>McKeever</em></h1>
+  <p class="hero-role">{{ page.role_line }}</p>
   <div class="hero-intro">{{ page.intro | markdownify }}</div>
   <p class="hero-links">
     {% for link in page.hero_links %}<a href="{{ link.url }}" {% if link.rel %}rel="{{ link.rel }}"{% endif %}>{{ link.label }}</a>{% unless forloop.last %}<span aria-hidden="true"> · </span>{% endunless %}{% endfor %}
   </p>
 </section>
 
-<section class="now" aria-labelledby="now-heading">
-  <h2 class="section-label" id="now-heading">Now</h2>
+<section class="now reveal" aria-labelledby="now-heading">
+  <h2 class="section-label" id="now-heading">Currently</h2>
   <ul class="now-list">
     {% for item in page.now %}
     <li>{{ item | markdownify }}</li>
@@ -20,10 +20,10 @@ layout: default
 </section>
 
 <section class="selected-work" aria-labelledby="work-heading">
-  <h2 class="section-label" id="work-heading">Selected work</h2>
+  <h2 class="section-label reveal" id="work-heading">Selected work</h2>
   <div class="card-grid">
     {% for project in page.projects %}
-    <article class="card">
+    <article class="card reveal">
       <p class="card-tag">{{ project.tag }}</p>
       <h3 class="card-title">{% if project.url %}<a href="{{ project.url }}">{{ project.title }}</a>{% else %}{{ project.title }}{% endif %}</h3>
       <div class="card-body">{{ project.blurb | markdownify }}</div>
@@ -31,10 +31,10 @@ layout: default
     </article>
     {% endfor %}
   </div>
-  <p class="section-more"><a href="{{ '/work/' | relative_url }}">The full record, with details and links&nbsp;&rarr;</a></p>
+  <p class="section-more reveal"><a href="{{ '/work/' | relative_url }}">More on the work page&nbsp;&rarr;</a></p>
 </section>
 
-<section class="recent-writing" aria-labelledby="writing-heading">
+<section class="recent-writing reveal" aria-labelledby="writing-heading">
   <h2 class="section-label" id="writing-heading">Writing</h2>
   <ul class="post-list">
     {% for post in site.posts limit: 3 %}
@@ -47,6 +47,6 @@ layout: default
   <p class="section-more"><a href="{{ '/writing/' | relative_url }}">All writing&nbsp;&rarr;</a></p>
 </section>
 
-<section class="outro">
+<section class="outro reveal">
   {{ content }}
 </section>
