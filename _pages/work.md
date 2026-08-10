@@ -35,14 +35,21 @@ still in draft. With the organization's director I am also sketching a Civic
 Tech Academy, an educational program meant to move skills between project
 teams.
 
-### Media-intake automation — Storyboard Studios
-<p class="meta">Python, Bash · 2025</p>
+---
 
-During pre-production on a documentary I wrote scripts that automated the
-studio's media intake — ingestion, tagging, and download handling. Intake
-time fell by roughly forty percent, and the records for two concurrent
-projects stayed consistent enough that the production team could actually
-find things.
+## Media & operations
+
+### Production and operations — Storyboard Studios
+<p class="meta">Premiere Pro, Python, Bash · contract · 2025–</p>
+
+Ongoing contract work for a documentary studio. It began in pre-production:
+I wrote scripts that automated media intake — ingestion, tagging, download
+handling — cutting intake time by roughly forty percent, and kept records
+consistent across two concurrent projects. This summer the work has been
+video editing for a sizzle reel shown at a Black Economic Forum event at
+Martha's Vineyard, organizing documents and spreadsheets for the United
+Justice Coalition conference, and design and administrative tasks as they
+come up.
 
 ---
 
@@ -68,7 +75,7 @@ participants oriented across this year's thirty-five events.
 
 ---
 
-## Research
+## Computational social science
 
 ### Public-health discourse — Columbia Health Language Lab
 <p class="meta">CDC-funded · Python, NLP · 2021–2023</p>
@@ -87,22 +94,24 @@ differentiate themselves in language, using the WZB Manifesto Project
 corpus. I wrote the proposal, ran the analysis in Python, and presented the
 results at an undergraduate research fair.
 
-### Collecting and hoarding — with Dr. Annie Pfeifer
+---
+
+## Humanities
+
+### Collecting and modernism — with Dr. Annie Pfeifer
 <p class="meta">Research assistance · German studies · 2021–2023</p>
 
 For *To the Collector Belong the Spoils: Modernism and the Art of
 Appropriation*, Dr. Pfeifer's study of modernist writers as collectors,
 hoarders, and appropriators, I tracked down sources and compiled research —
-Walter Benjamin above all. My name is in the foreword, which still pleases
-me.
+Walter Benjamin above all. My name is in the foreword.
 
 ### Fordism in interwar Germany
 <p class="meta">In progress · begun at the Freie Universität Berlin</p>
 
 A project that started in a Berlin pro-seminar: how Fordism arrived in
 Germany between the wars and what it did to labor relations and political
-discourse. It has sat dormant longer than I'd like, and getting it moving
-again is on this year's list.
+discourse. I'm picking it back up this year.
 
 ---
 

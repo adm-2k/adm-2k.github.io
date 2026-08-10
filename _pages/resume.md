@@ -17,8 +17,10 @@ lede: >-
 - **Civic Tech DC, CIB Mango Tree** (2025–) — Open-source contributor:
   tokenizer improvements, documentation edits, video, and a multilingual-support
   whitepaper in draft.
-- **Storyboard Studios** (2025) — Documentary post-production; intake
-  automation that cut processing time by about forty percent.
+- **Storyboard Studios** (2025–) — Documentary post-production, then ongoing
+  contract work: video editing (a Black Economic Forum sizzle reel),
+  conference documents for the United Justice Coalition, design and
+  administrative support.
 - **Columbia Daily Spectator** (2020–2023) — Product design section lead for
   a 28-person team; products serving over 300,000 readers a year.
 - **Columbia Health Language Lab** (2021–2023) — CDC-funded research on a

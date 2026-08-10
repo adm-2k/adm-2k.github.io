@@ -15,10 +15,13 @@ lede: >-
 I co-lead programming and events at
 [The Upskilling Labs](https://theupskillinglabs.org) — thirty-five-odd
 events reaching about five hundred people so far this year — and help
-maintain the platform behind the program. At
-[Civic Tech DC](https://civictechdc.org) I contribute to open-source work
-alongside a good group of volunteers, and on alternating weeks I teach a
-GitHub workshop for people coming to technical work from other fields.
+maintain the platform behind the program. I do contract production and
+operations work for Storyboard Studios, a documentary studio: lately video
+editing for a Black Economic Forum event and conference materials for the
+United Justice Coalition. At [Civic Tech DC](https://civictechdc.org) I
+contribute to open-source work alongside a good group of volunteers, and I
+teach a recurring GitHub workshop for people coming to technical work from
+other fields.
 
 ## How I got here
 
@@ -30,11 +33,11 @@ hundred-thousand-document public-health corpus at the Health Language Lab —
 used computational methods to ask the seminar's questions: how institutions
 speak, and what that speech does.
 
-The seminar side produced its own work. I did research assistance for
-Dr. Annie Pfeifer's *To the Collector Belong the Spoils*, a study of
-modernist writers as collectors and hoarders — my name is in the foreword —
-and started a project on Fordism's arrival in interwar Germany at the
-Freie Universität that I still mean to finish.
+The seminar side produced its own work, on its own terms. I did research
+assistance for Dr. Annie Pfeifer's *To the Collector Belong the Spoils*, a
+study of modernist writers as collectors and hoarders; my name is in the
+foreword. Separately, at the Freie Universität, I started a project on
+Fordism's arrival in interwar Germany that I'm now picking back up.
 
 Before college I spent a year in Tübingen on a State Department exchange,
 interning in the Bundestag; during college, another year in Berlin at the

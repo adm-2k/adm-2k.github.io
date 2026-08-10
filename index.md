@@ -5,12 +5,12 @@ role_line: "Technologist & organizer · Washington, DC"
 intro: >-
   Most of my week goes to [The Upskilling Labs](https://theupskillinglabs.org),
   a workforce-development nonprofit where I help run the workshop program and
-  co-maintain the platform behind it, and to
-  [Civic Tech DC](https://civictechdc.org), where I pitch in on an open-source
-  research tool. Holding it together is an interest I brought from Columbia,
-  where I studied information science and German literature: how new
-  technologies get taken up by people and institutions, and how to make that
-  adoption count for the public.
+  co-maintain the platform behind it, with the rest split between contract
+  production work for a documentary studio and open-source contributions at
+  [Civic Tech DC](https://civictechdc.org). I studied information science and
+  German literature at Columbia, and the question I keep working on comes from
+  both: how new technologies get taken up by people and institutions, and how
+  to make that adoption count for the public.
 hero_links:
   - label: "GitHub"
     url: "https://github.com/adm-2k"
@@ -29,6 +29,11 @@ now:
     reaching about five hundred people — and co-maintaining the platform
     behind them.
   - >-
+    Contracting for Storyboard Studios: video editing for a sizzle reel
+    for a Black Economic Forum event, conference documents and spreadsheets
+    for the United Justice Coalition, and design and administrative work
+    as it comes up.
+  - >-
     Pitching in on CIB Mango Tree at Civic Tech DC: tokenizer fixes,
     documentation edits, some video work, and a whitepaper on multilingual
     support that is still in draft.
@@ -36,8 +41,8 @@ now:
     Teaching a recurring GitHub workshop for people coming to technical
     work from other fields.
   - >-
-    Trying to get the Fordism project — interwar Germany, begun at the
-    Freie Universität — moving again.
+    Picking the Fordism project — interwar Germany, begun at the Freie
+    Universität — back up.
 projects:
   - tag: "Software"
     title: "Participant-management platform"
@@ -57,14 +62,29 @@ projects:
       modest and ongoing: tokenizer improvements, documentation edits, video,
       and a whitepaper on multilingual support, currently in draft.
     meta: "Python · Civic Tech DC · 2025–"
+  - tag: "Media & operations"
+    title: "Storyboard Studios"
+    blurb: >-
+      Contract work for a documentary studio, started in post-production and
+      still going: media-intake automation in 2025, and this summer a sizzle
+      reel for a Black Economic Forum event, conference documents for the
+      United Justice Coalition, and design and administrative support.
+    meta: "Premiere Pro, Python · contract · 2025–"
   - tag: "Humanities"
-    title: "Benjamin, collecting, and Fordism"
+    title: "Collecting and modernism"
     blurb: >-
       Research assistance for Dr. Annie Pfeifer's *To the Collector Belong
-      the Spoils*, a study of modernist writers as collectors and hoarders —
-      my name is in the foreword — and a slower project on Fordism's arrival
-      in interwar Germany, begun at the Freie Universität Berlin.
-    meta: "German studies · 2021–"
+      the Spoils: Modernism and the Art of Appropriation*, a study of
+      modernist writers as collectors and hoarders. My name is in the
+      foreword.
+    meta: "German studies · 2021–2023"
+  - tag: "In progress"
+    title: "Fordism in interwar Germany"
+    blurb: >-
+      How Fordism arrived in Germany between the wars and what it did to
+      labor relations and political discourse. Begun in a pro-seminar at the
+      Freie Universität Berlin; I'm picking it back up.
+    meta: "Historical research · ongoing"
   - tag: "Design"
     title: "Columbia Daily Spectator"
     url: "https://www.columbiaspectator.com/"
