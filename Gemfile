@@ -1,4 +1,4 @@
 source "https://rubygems.org"
-gem "github-pages", group: :jekyll_plugins
-gem "minimal-mistakes-jekyll"
-gem "jekyll-include-cache" # Required by minimal-mistakes
+
+# Everything needed to build this site the same way GitHub Pages does.
+gem "github-pages", "~> 232", group: :jekyll_plugins

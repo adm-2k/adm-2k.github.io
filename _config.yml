@@ -1,65 +1,54 @@
 title: "Aaron McKeever"
 email: "adm2216@columbia.edu"
-description: >- 
-  Columbia student in Information Science & German Lit • Research • Design • AI
-baseurl: ""
+description: >-
+  Civic technologist in Washington, DC — building open-source tools,
+  teaching Git and GitHub, and running programs that help people grow
+  into technical work.
 url: "https://adm-2k.github.io"
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-# theme: "minimal-mistakes-jekyll"  # Uncomment for local testing
+baseurl: ""
+repository: "adm-2k/adm-2k.github.io"
+timezone: America/New_York
+
+author:
+  name: "Aaron McKeever"
+  email: "adm2216@columbia.edu"
+
+social:
+  name: "Aaron McKeever"
+  links:
+    - "https://github.com/adm-2k"
+    - "https://linkedin.com/in/adm2216"
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-include-cache
-  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-redirect-from
 
-# Site Layout
+markdown: kramdown
+permalink: /writing/:year/:title/
+
+include:
+  - _pages
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+
 defaults:
-  # _posts
+  # Blog posts
   - scope:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: true
-      related: true
-  # _pages
+      layout: post
+      image: /assets/images/portrait-square.jpg
+  # Pages
   - scope:
-      path: "_pages"
-      type: pages
+      path: ""
     values:
-      layout: single
-      author_profile: true
-
-# Site Author
-author:
-  name: "Aaron McKeever"
-  avatar: "/assets/images/avatar.png"
-  bio: "Student. Researcher. Designer. AI practitioner."
-  location: "NYC"
-  links:
-    - label: "Email"
-      icon: "fas fa-envelope"
-      url: "mailto:adm2216@columbia.edu"
-    - label: "Resume"
-      icon: "fas fa-file-alt"
-      url: "/assets/McKeeverMay2025.pdf"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/adm-2k"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://linkedin.com/in/aaron-mckeever-75029b179/"
-
-markdown: kramdown
-include:
-  - _pages
-
-# Collections
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
+      layout: page
+      image: /assets/images/portrait-square.jpg

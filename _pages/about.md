@@ -1,57 +1,71 @@
 ---
-title: "About Me"
+title: "About"
 permalink: /about/
-layout: single
-author_profile: true
-toc: true
-toc_sticky: true
-header:
-  overlay_image: /assets/IMG_2048.jpeg
-  overlay_filter: 0.5
+kicker: "Who I am"
+lede: >-
+  Technologist, organizer, and occasional photographer in Washington, DC.
+  I like the work that sits between code and people.
 ---
 
-## Education
+<figure class="portrait">
+  <img src="/assets/images/portrait.jpg" alt="Aaron McKeever in profile, standing among greenhouse plants" width="1400" height="933">
+</figure>
 
-I'm a recent graduate from Columbia University:
-- **BA in Information Science** with a focus on computational linguistics, with courses in Syntax, Discourse Analysis, NLP, AI and NLU, and Data Visualization
-- **Concentration in German Literature and Cultural History** focusing on early 20th literature and philosophy with particular interest in the intersection between language, politics, and technology (Benjamin, Heidegger, and Adorno)
+## The short version
 
-## Research Interests
+- **Now:** Programming & Events Co-Lead at [The Upskilling Labs](https://theupskillinglabs.org);
+  open-source contributor at [Civic Tech DC](https://civictechdc.org); recurring
+  Git/GitHub workshop instructor.
+- **Before:** Product design lead at the Columbia Daily Spectator; CDC-funded
+  NLP research at Columbia's Health Language Lab; Laidlaw Research Fellow.
+- **Education:** Columbia University '25 — B.A. in Information Science
+  (Computer Science department) and German Literature & Cultural History.
+- **Languages:** English (native), German (C1), Spanish (B1).
 
-My academic work bridges technology and humanities through several key areas:
+## The longer version
 
-### Computational Linguistics
-I explore how NLP can enhance our understanding of linguistic patterns across different languages, with particular emphasis on German political texts. My previous research focused on exploring cross-linguistic patterns in political discourse, analyzing how political parties differentiate themselves through particular collocations and lexical choices.
+I studied two things at Columbia that most people file in different drawers:
+information science and German literature. The common thread was always
+language — how it's structured, how it moves people, and what computers can
+and can't tell us about it. That thread ran through a State Department
+CBYX exchange year in Tübingen (with an internship in the Bundestag under the
+SPD), a year at the Freie Universität Berlin as a Berlin Consortium scholar,
+and research fellowships that had me analyzing everything from German party
+platforms to a 100,000-document corpus of public-health discourse.
 
-### Fordism
-During a junior year pro-seminar at the Free University of Berlin, I studied the historical and cultural implications of Fordism, particularly its arrival in Germany during the interwar period. This research examined how Fordism influenced labor relations and political discourse, shaping the country's socio-economic development in a time of extensive upheaval.
+The other thread was the student newspaper. Three years on the Columbia Daily
+Spectator's product team taught me what shipping actually means: weekly
+deadlines, a cross-functional team of designers and engineers, and hundreds of
+thousands of readers who don't care about your process — only whether the thing
+works. I ended as Section Lead, running a team of 28 and training the next
+cohort.
 
-### Information Architecture
-I study how information can be structured, organized, and presented to maximize its utility and accessibility. This interest extends to both digital and physical spaces, including libraries, databases, and knowledge management systems. I am particularly interested in ontologies and formal concptual modeling, exploring how these frameworks can enhance our understanding of complex information systems.
+After graduating I moved to Washington, DC, and found the place where those
+threads braid together: **civic technology**. Now I spend my time building the
+platform and programs at a workforce-development nonprofit, contributing to
+open-source projects at Civic Tech DC, and teaching GitHub workflows to people
+who are switching into technical careers.
 
-## Technical Skills
+What I've learned, and what this site tries to show: the gap between "technical
+work" and "community work" is smaller than it looks. A tokenizer improvement
+and a well-run onboarding session are the same job — making a system legible
+enough that more people can participate in it.
 
-- **Programming Languages**: Python, C, C++, Java, R, JavaScript, HTML/CSS, SQL
-- **Machine Learning**: PyTorch, TensorFlow, scikit-learn
-- **Natural Language Processing**: spaCy, NLTK, Hugging Face, CoreNLP
-- **Data Visualization**: D3.js, matplotlib, Tableau
-- **Web Development**: Jekyll, HTML/CSS, React
+## Beyond work
 
-## Publications & Presentations
+I photograph people and places ([selected work](https://adm2216.myportfolio.com/)),
+wander art museums, hike when I can, and still reread Walter Benjamin —
+these days on the Metro instead of in Central Park.
 
-- Acknowledged as RA in Dr. Annie Pfeifer's *To the Collector Belong the Spoils: Modernism and the Art of Appropriation*
+## Recognition
 
-## Personal Interests
+- Deutsches Haus Senior Departmental Prize (one graduating senior per year)
+- Data for Good Fellowship, Columbia Data Science Institute
+- Laidlaw Foundation Research Fellowship
+- Berlin Consortium for German Studies Scholar
 
-When I'm not in the lab or library, you might find me:
-- Exploring NYC's art galleries and museums
-- Hiking in the Hudson Valley
-- Reading Walter Benjamin in Central Park
-- Taking [photographs](https://adm2216.myportfolio.com/) of friends
+## Get in touch
 
-## Contact Information
-
-Feel free to reach out to discuss research opportunities, collaborations, or just to chat about computational linguistics, information theory, philosophy of history, and literature:
-
-- **Email**: adm2216@columbia.edu
-- **LinkedIn**: [Aaron McKeever](https://linkedin.com/in/aaron-mckeever-75029b179)
+Email is best: [adm2216@columbia.edu](mailto:adm2216@columbia.edu).
+I'm also on [GitHub](https://github.com/adm-2k) and
+[LinkedIn](https://linkedin.com/in/adm2216).

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  {% seo %}
+  {% feed_meta %}
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Site">
+      <a class="site-name" href="{{ '/' | relative_url }}">Aaron&nbsp;McKeever</a>
+      <div class="site-links">
+        <a href="{{ '/work/' | relative_url }}" {% if page.url == '/work/' %}aria-current="page"{% endif %}>Work</a>
+        <a href="{{ '/writing/' | relative_url }}" {% if page.url contains '/writing/' %}aria-current="page"{% endif %}>Writing</a>
+        <a href="{{ '/about/' | relative_url }}" {% if page.url == '/about/' %}aria-current="page"{% endif %}>About</a>
+        <a href="{{ '/resume/' | relative_url }}" {% if page.url == '/resume/' %}aria-current="page"{% endif %}>Résumé</a>
+        <a href="https://github.com/adm-2k" class="external" rel="me">GitHub&#8599;</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-contact">
+        <a href="mailto:adm2216@columbia.edu">adm2216@columbia.edu</a>
+        <span aria-hidden="true">·</span>
+        <a href="https://github.com/adm-2k" rel="me">GitHub</a>
+        <span aria-hidden="true">·</span>
+        <a href="https://linkedin.com/in/adm2216" rel="me">LinkedIn</a>
+        <span aria-hidden="true">·</span>
+        <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      </p>
+      <p class="footer-colophon">
+        © {{ site.time | date: '%Y' }} Aaron McKeever · Typeset in Fraunces &amp; Inter ·
+        Built with Jekyll on GitHub Pages — <a href="https://github.com/adm-2k/adm-2k.github.io">source</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
