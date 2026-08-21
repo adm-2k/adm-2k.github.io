@@ -2,6 +2,7 @@
 title: "Work"
 permalink: /work/
 body_class: work
+kicker: "Werkverzeichnis"
 redirect_from:
   - /portfolio/
   - /portfolio/index/

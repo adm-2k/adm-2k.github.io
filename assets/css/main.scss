@@ -52,6 +52,7 @@
   @include light-tokens;
 
   --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-prose: "Newsreader", Georgia, "Times New Roman", serif;
   --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
   --radius: 12px;
@@ -415,7 +416,9 @@ body:has(.page) .footer-inner {
 
 .hero-intro {
   max-width: 44rem;
-  font-size: 1.15rem;
+  font-family: var(--font-prose);
+  font-size: 1.2rem;
+  line-height: 1.65;
   color: var(--ink-soft);
 }
 
@@ -453,6 +456,8 @@ body:has(.page) .footer-inner {
 .now-list li {
   position: relative;
   padding: 0 0 0.85rem 1.6rem;
+  font-family: var(--font-prose);
+  font-size: 1.1rem;
   color: var(--ink-soft);
 }
 
@@ -584,7 +589,8 @@ body:has(.page) .footer-inner {
 }
 
 .lede {
-  font-size: 1.2rem;
+  font-family: var(--font-prose);
+  font-size: 1.25rem;
   color: var(--ink-soft);
   max-width: 42rem;
   margin-top: 1rem;
@@ -593,6 +599,9 @@ body:has(.page) .footer-inner {
 
 .prose {
   margin-top: 2.5rem;
+  font-family: var(--font-prose);
+  font-size: 1.125rem;
+  line-height: 1.7;
   font-variant-numeric: oldstyle-nums;
 }
 
@@ -698,7 +707,7 @@ body:has(.page) .footer-inner {
 }
 
 .work .prose h3::before {
-  content: counter(entry, decimal-leading-zero);
+  content: "\2116\a0" counter(entry, decimal-leading-zero);
   font-family: var(--font-mono);
   font-size: 0.72rem;
   font-weight: 500;
@@ -748,6 +757,198 @@ body:has(.page) .footer-inner {
   padding-top: 1.25rem;
   border-top: 1px solid var(--hairline);
   font-weight: 500;
+}
+
+/* --------------------------------------------------------------------------
+   Epigraph
+   -------------------------------------------------------------------------- */
+
+.epigraph {
+  max-width: 46rem;
+  padding-bottom: 3.5rem;
+}
+
+.epigraph blockquote {
+  margin: 0;
+  padding: 0 0 0 1.4rem;
+  border-left: 2px solid var(--accent);
+}
+
+.epigraph p {
+  font-family: var(--font-prose);
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin: 0 0 0.5rem;
+  text-wrap: pretty;
+}
+
+.epigraph cite {
+  font-family: var(--font-mono);
+  font-style: normal;
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+  color: var(--ink-faint);
+}
+
+/* --------------------------------------------------------------------------
+   Index: the catalogue. Native <details> rows — no JS required.
+   -------------------------------------------------------------------------- */
+
+.index-section {
+  padding-bottom: 3.5rem;
+}
+
+.index {
+  border-top: 1px solid var(--hairline-strong);
+}
+
+.index-entry {
+  border-bottom: 1px solid var(--hairline);
+}
+
+.index-entry summary {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 3.25rem 1fr auto auto 1.5rem;
+  align-items: baseline;
+  gap: 0 1rem;
+  padding: 0.9rem 0.25rem;
+  cursor: pointer;
+  transition: background 140ms ease;
+}
+
+.index-entry summary::-webkit-details-marker {
+  display: none;
+}
+
+.index-entry summary:hover {
+  background: var(--paper-raised);
+}
+
+.index-entry summary:hover .index-title {
+  color: var(--accent);
+}
+
+.index-num {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  color: var(--ink-faint);
+}
+
+.index-title {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 550;
+  line-height: 1.25;
+  transition: color 140ms ease;
+}
+
+.index-cat {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.index-years {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  color: var(--ink-faint);
+  white-space: nowrap;
+}
+
+.index-mark {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  color: var(--ink-faint);
+  justify-self: end;
+  transition: transform 200ms ease, color 200ms ease;
+}
+
+.index-entry[open] .index-mark {
+  transform: rotate(45deg);
+  color: var(--accent);
+}
+
+.index-body {
+  padding: 0.25rem 0.25rem 1.4rem 4.25rem;
+  max-width: 40rem;
+}
+
+.index-body p {
+  font-family: var(--font-prose);
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--ink-soft);
+  margin: 0 0 0.6rem;
+  text-wrap: pretty;
+}
+
+.index-body .index-link {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+@media (max-width: 46rem) {
+  .index-entry summary {
+    grid-template-columns: 2.5rem 1fr 1.5rem;
+    grid-template-areas:
+      "num title mark"
+      "num meta  mark";
+  }
+
+  .index-num { grid-area: num; }
+  .index-title { grid-area: title; }
+  .index-mark { grid-area: mark; }
+
+  .index-cat, .index-years {
+    grid-area: meta;
+    margin-top: 0.15rem;
+  }
+
+  .index-years {
+    justify-self: end;
+  }
+
+  .index-body {
+    padding-left: 0.25rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Sidenotes: marginalia on wide screens, quiet asides inline on narrow.
+   Usage: <span class="sidenote">…</span> inside prose.
+   -------------------------------------------------------------------------- */
+
+.sidenote {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: var(--ink-faint);
+  margin: 0.6em 0;
+  padding-left: 1em;
+  border-left: 2px solid var(--hairline);
+}
+
+@media (min-width: 76rem) {
+  .sidenote {
+    float: right;
+    clear: right;
+    width: 13rem;
+    margin: 0.2rem -16rem 0.9rem 1rem;
+    padding-left: 0;
+    border-left: 0;
+    border-top: 1px solid var(--hairline);
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+  }
 }
 
 /* --------------------------------------------------------------------------

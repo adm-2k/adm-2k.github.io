@@ -27,6 +27,35 @@
     window.addEventListener('scroll', onScroll, { passive: true });
   }
 
+  // Letter-settle on the role line: characters cycle briefly, then resolve
+  // left to right — a typesetter sorting letters into place. Runs once,
+  // never for reduced-motion users, and the real text is always in the DOM.
+  var settle = document.querySelector('.js-settle');
+  if (settle && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    var finalText = settle.textContent;
+    var glyphs = 'ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ§·—';
+    var frame = 0;
+    settle.setAttribute('aria-label', finalText);
+    var tick = setInterval(function () {
+      frame += 1;
+      var resolved = Math.floor(frame * finalText.length / 24);
+      var out = '';
+      for (var i = 0; i < finalText.length; i += 1) {
+        var ch = finalText[i];
+        if (i < resolved || ch === ' ' || ch === '·' || ch === ',') {
+          out += ch;
+        } else {
+          out += glyphs[(Math.random() * glyphs.length) | 0];
+        }
+      }
+      settle.textContent = out;
+      if (resolved >= finalText.length) {
+        settle.textContent = finalText;
+        clearInterval(tick);
+      }
+    }, 38);
+  }
+
   // Reveal-on-scroll. Skipped entirely for reduced-motion users; without JS
   // every element is visible by default because .has-motion is never added.
   if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches &&

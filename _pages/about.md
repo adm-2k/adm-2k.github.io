@@ -34,14 +34,20 @@ used computational methods to ask the seminar's questions: how institutions
 speak, and what that speech does.
 
 The seminar side produced its own work, on its own terms. I did research
-assistance for Dr. Annie Pfeifer's *To the Collector Belong the Spoils*, a
-study of modernist writers as collectors and hoarders; my name is in the
-foreword. Separately, at the Freie Universität, I started a project on
-Fordism's arrival in interwar Germany that I'm now picking back up.
+assistance for Dr. Annie Pfeifer's *To the Collector Belong the
+Spoils*<span class="sidenote">Full title: *To the Collector Belong the
+Spoils: Modernism and the Art of Appropriation* — on modernist writers as
+collectors, hoarders, and appropriators.</span>, a study of modernist
+writers as collectors and hoarders; my name is in the foreword. Separately,
+at the Freie Universität, I started a project on Fordism's arrival in
+interwar Germany that I'm now picking back up.
 
-Before college I spent a year in Tübingen on a State Department exchange,
-interning in the Bundestag; during college, another year in Berlin at the
-Freie Universität. German politics is still the example I reach for first.
+Before college I spent a year in Tübingen on a State Department
+exchange<span class="sidenote">CBYX — the Congress-Bundestag Youth Exchange,
+a scholarship year in Germany funded by the U.S. State Department and the
+Bundestag.</span>, interning in the Bundestag; during college, another year
+in Berlin at the Freie Universität. German politics is still the example I
+reach for first.
 
 The other formative thing was the student newspaper. Three years on the
 Columbia Daily Spectator's product team, the last as section lead, taught me

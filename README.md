@@ -28,7 +28,7 @@ recent-posts list, and in the RSS feed (`/feed.xml`). Nothing else to update.
 
 | What | Where |
 |------|-------|
-| Home page hero, "Now" items, selected-work cards | Front matter in `index.md` |
+| Home page hero, epigraph, "Currently" items, index entries | Front matter in `index.md` |
 | Full work record | `_pages/work.md` |
 | About, résumé, writing index | `_pages/*.md` |
 | Layouts (HTML shell) | `_layouts/` |

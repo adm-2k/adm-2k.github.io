@@ -2,6 +2,11 @@
 layout: home
 permalink: /
 role_line: "Technologist & organizer · Washington, DC"
+epigraph:
+  text: >-
+    “Every passion borders on the chaotic, but the collector's passion
+    borders on the chaos of memories.”
+  source: "Walter Benjamin, “Unpacking My Library” (1931)"
 intro: >-
   Most of my week goes to [The Upskilling Labs](https://theupskillinglabs.org),
   a workforce-development nonprofit where I help run the workshop program and
@@ -46,53 +51,56 @@ now:
 projects:
   - tag: "Software"
     title: "Participant-management platform"
+    years: "2026–"
     url: "https://theupskillinglabs.org"
+    link_label: "theupskillinglabs.org"
     blurb: >-
       The Upskilling Labs runs registration, application intake, and
       milestone tracking for its programs on this platform. I help build
       and maintain it with the rest of the team — content, user management,
       small fixes, support.
-    meta: "Next.js · The Upskilling Labs · 2026–"
   - tag: "Open source"
     title: "CIB Mango Tree"
+    years: "2025–"
     url: "https://civictechdc.org"
+    link_label: "civictechdc.org"
     blurb: >-
       An open-source tool for detecting coordinated inauthentic behavior in
       social-media datasets, built by volunteers at Civic Tech DC. My part is
       modest and ongoing: tokenizer improvements, documentation edits, video,
       and a whitepaper on multilingual support, currently in draft.
-    meta: "Python · Civic Tech DC · 2025–"
   - tag: "Media & operations"
     title: "Storyboard Studios"
+    years: "2025–"
     blurb: >-
       Contract work for a documentary studio, started in post-production and
       still going: media-intake automation in 2025, and this summer a sizzle
       reel for a Black Economic Forum event, conference documents for the
       United Justice Coalition, and design and administrative support.
-    meta: "Premiere Pro, Python · contract · 2025–"
   - tag: "Humanities"
     title: "Collecting and modernism"
+    years: "2021–23"
     blurb: >-
       Research assistance for Dr. Annie Pfeifer's *To the Collector Belong
       the Spoils: Modernism and the Art of Appropriation*, a study of
       modernist writers as collectors and hoarders. My name is in the
       foreword.
-    meta: "German studies · 2021–2023"
   - tag: "In progress"
     title: "Fordism in interwar Germany"
+    years: "ongoing"
     blurb: >-
       How Fordism arrived in Germany between the wars and what it did to
       labor relations and political discourse. Begun in a pro-seminar at the
       Freie Universität Berlin; I'm picking it back up.
-    meta: "Historical research · ongoing"
   - tag: "Design"
     title: "Columbia Daily Spectator"
+    years: "2020–23"
     url: "https://www.columbiaspectator.com/"
+    link_label: "columbiaspectator.com"
     blurb: >-
       Three years of product design at Columbia's student newspaper, the last
       as section lead of a 28-person design and engineering team. Our tools —
       The Shaft, LionClubs, CULPA — served over 300,000 readers a year.
-    meta: "Figma · 2020–2023"
 ---
 
 ## Contact
