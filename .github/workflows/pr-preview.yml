@@ -1,0 +1,47 @@
+# Deploys a live preview of every pull request to
+#   https://adm-2k.github.io/pr-preview/pr-<number>/
+# and maintains a sticky comment on the PR with the link.
+# Previews are removed automatically when the PR closes.
+#
+# Uses https://github.com/rossjrw/pr-preview-action — previews are written
+# into the pr-preview/ folder of the gh-pages branch, which deploy.yml
+# leaves untouched (clean-exclude).
+name: PR preview
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, closed]
+
+concurrency:
+  group: pr-preview-${{ github.event.number }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    env:
+      LANG: en_US.UTF-8
+      LC_ALL: C.UTF-8
+    steps:
+      - uses: actions/checkout@v4
+
+      - if: github.event.action != 'closed'
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      # Build against the preview subpath so stylesheets, scripts, images,
+      # and nav links (all emitted via relative_url) resolve correctly.
+      - if: github.event.action != 'closed'
+        run: bundle exec jekyll build --baseurl "/pr-preview/pr-${{ github.event.number }}"
+
+      - uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: _site
+          preview-branch: gh-pages
+          umbrella-dir: pr-preview

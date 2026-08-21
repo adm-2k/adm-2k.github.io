@@ -1,0 +1,45 @@
+# Builds the site with Jekyll and publishes it to the gh-pages branch.
+#
+# This replaces the classic "build from main" GitHub Pages pipeline so that
+# PR previews (pr-preview.yml) can live alongside the production site.
+# One-time setup after this lands on main:
+#   1. Run this workflow once (Actions → Deploy site → Run workflow)
+#      so gh-pages contains the production build.
+#   2. Settings → Pages → Source: "Deploy from a branch" → gh-pages / (root).
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-site
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    env:
+      LANG: en_US.UTF-8
+      LC_ALL: C.UTF-8
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - run: bundle exec jekyll build
+
+      - uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: _site
+          branch: gh-pages
+          clean: true
+          clean-exclude: pr-preview/
+          force: false
