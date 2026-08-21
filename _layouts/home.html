@@ -1,0 +1,68 @@
+---
+layout: default
+---
+<section class="hero">
+  <h1 class="hero-name">Aaron <em>McKeever</em></h1>
+  <p class="hero-role js-settle">{{ page.role_line }}</p>
+  <div class="hero-intro">{{ page.intro | markdownify }}</div>
+  <p class="hero-links">
+    {% for link in page.hero_links %}<a href="{{ link.url }}" {% if link.rel %}rel="{{ link.rel }}"{% endif %}>{{ link.label }}</a>{% unless forloop.last %}<span aria-hidden="true"> · </span>{% endunless %}{% endfor %}
+  </p>
+</section>
+
+<section class="now reveal" aria-labelledby="now-heading">
+  <h2 class="section-label" id="now-heading">Currently</h2>
+  <ul class="now-list">
+    {% for item in page.now %}
+    <li>{{ item | markdownify }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+{% if page.epigraph %}
+<section class="epigraph reveal">
+  <blockquote>
+    <p>{{ page.epigraph.text }}</p>
+    <cite>{{ page.epigraph.source }}</cite>
+  </blockquote>
+</section>
+{% endif %}
+
+<section class="index-section" aria-labelledby="index-heading">
+  <h2 class="section-label reveal" id="index-heading">Index</h2>
+  <div class="index reveal">
+    {% for project in page.projects %}
+    <details class="index-entry">
+      <summary>
+        <span class="index-num">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+        <span class="index-title">{{ project.title }}</span>
+        <span class="index-cat">{{ project.tag }}</span>
+        <span class="index-years">{{ project.years }}</span>
+        <span class="index-mark" aria-hidden="true">+</span>
+      </summary>
+      <div class="index-body">
+        {{ project.blurb | markdownify }}
+        {% if project.url %}<p class="index-link"><a href="{{ project.url }}">{{ project.link_label | default: "Link" }}&nbsp;&#8599;</a></p>{% endif %}
+      </div>
+    </details>
+    {% endfor %}
+  </div>
+  <p class="section-more reveal"><a href="{{ '/work/' | relative_url }}">Full entries on the work page&nbsp;&rarr;</a></p>
+</section>
+
+<section class="recent-writing reveal" aria-labelledby="writing-heading">
+  <h2 class="section-label" id="writing-heading">Writing</h2>
+  <ul class="post-list">
+    {% for post in site.posts limit: 3 %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+    </li>
+    {% endfor %}
+  </ul>
+  <p class="section-more"><a href="{{ '/writing/' | relative_url }}">All writing&nbsp;&rarr;</a></p>
+</section>
+
+<section class="outro reveal">
+  {{ content }}
+</section>

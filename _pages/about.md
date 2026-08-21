@@ -1,57 +1,82 @@
 ---
-title: "About Me"
+title: "About"
 permalink: /about/
-layout: single
-author_profile: true
-toc: true
-toc_sticky: true
-header:
-  overlay_image: /assets/IMG_2048.jpeg
-  overlay_filter: 0.5
+lede: >-
+  I live in Washington, DC, and split my time between a
+  workforce-development nonprofit and the city's civic-tech community.
 ---
 
-## Education
+<figure class="portrait">
+  <img src="/assets/images/portrait.jpg" alt="Aaron McKeever in profile, standing among greenhouse plants" width="1400" height="933">
+</figure>
 
-I'm a recent graduate from Columbia University:
-- **BA in Information Science** with a focus on computational linguistics, with courses in Syntax, Discourse Analysis, NLP, AI and NLU, and Data Visualization
-- **Concentration in German Literature and Cultural History** focusing on early 20th literature and philosophy with particular interest in the intersection between language, politics, and technology (Benjamin, Heidegger, and Adorno)
+## Now
 
-## Research Interests
+I co-lead programming and events at
+[The Upskilling Labs](https://theupskillinglabs.org) — thirty-five-odd
+events reaching about five hundred people so far this year — and help
+maintain the platform behind the program. I do contract production and
+operations work for Storyboard Studios, a documentary studio: lately video
+editing for a Black Economic Forum event and conference materials for the
+United Justice Coalition. At [Civic Tech DC](https://civictechdc.org) I
+contribute to open-source work alongside a good group of volunteers, and I
+teach a recurring GitHub workshop for people coming to technical work from
+other fields.
 
-My academic work bridges technology and humanities through several key areas:
+## How I got here
 
-### Computational Linguistics
-I explore how NLP can enhance our understanding of linguistic patterns across different languages, with particular emphasis on German political texts. My previous research focused on exploring cross-linguistic patterns in political discourse, analyzing how political parties differentiate themselves through particular collocations and lexical choices.
+At Columbia I studied information science and German literature at the same
+time, which meant problem sets on one side of campus and seminars on
+Benjamin and Adorno on the other. The two turned out to share a subject.
+My research work — party platforms for a Laidlaw fellowship, a
+hundred-thousand-document public-health corpus at the Health Language Lab —
+used computational methods to ask the seminar's questions: how institutions
+speak, and what that speech does.
 
-### Fordism
-During a junior year pro-seminar at the Free University of Berlin, I studied the historical and cultural implications of Fordism, particularly its arrival in Germany during the interwar period. This research examined how Fordism influenced labor relations and political discourse, shaping the country's socio-economic development in a time of extensive upheaval.
+The seminar side produced its own work, on its own terms. I did research
+assistance for Dr. Annie Pfeifer's *To the Collector Belong the
+Spoils*<span class="sidenote">Full title: *To the Collector Belong the
+Spoils: Modernism and the Art of Appropriation* — on modernist writers as
+collectors, hoarders, and appropriators.</span>, a study of modernist
+writers as collectors and hoarders; my name is in the foreword. Separately,
+at the Freie Universität, I started a project on Fordism's arrival in
+interwar Germany that I'm now picking back up.
 
-### Information Architecture
-I study how information can be structured, organized, and presented to maximize its utility and accessibility. This interest extends to both digital and physical spaces, including libraries, databases, and knowledge management systems. I am particularly interested in ontologies and formal concptual modeling, exploring how these frameworks can enhance our understanding of complex information systems.
+Before college I spent a year in Tübingen on a State Department
+exchange<span class="sidenote">CBYX — the Congress-Bundestag Youth Exchange,
+a scholarship year in Germany funded by the U.S. State Department and the
+Bundestag.</span>, interning in the Bundestag; during college, another year
+in Berlin at the Freie Universität. German politics is still the example I
+reach for first.
 
-## Technical Skills
+The other formative thing was the student newspaper. Three years on the
+Columbia Daily Spectator's product team, the last as section lead, taught me
+how design and engineering argue with each other and how weekly deadlines
+settle the argument. Our readers numbered in the hundreds of thousands and
+did not care about our process.
 
-- **Programming Languages**: Python, C, C++, Java, R, JavaScript, HTML/CSS, SQL
-- **Machine Learning**: PyTorch, TensorFlow, scikit-learn
-- **Natural Language Processing**: spaCy, NLTK, Hugging Face, CoreNLP
-- **Data Visualization**: D3.js, matplotlib, Tableau
-- **Web Development**: Jekyll, HTML/CSS, React
+After graduating I moved to Washington. The work I care about sits where
+new tools meet public institutions — adopting them critically, and to some
+actual public benefit, rather than because they are new. In practice that
+means fixing a tokenizer some days and running an onboarding session on
+others; I like being the same person for both.
 
-## Publications & Presentations
+## Outside work
 
-- Acknowledged as RA in Dr. Annie Pfeifer's *To the Collector Belong the Spoils: Modernism and the Art of Appropriation*
+I photograph people and places
+([a selection](https://adm2216.myportfolio.com/)), wander museums, hike when
+I can, and still reread Walter Benjamin — on the Metro now instead of in
+Central Park.
 
-## Personal Interests
+## Recognition
 
-When I'm not in the lab or library, you might find me:
-- Exploring NYC's art galleries and museums
-- Hiking in the Hudson Valley
-- Reading Walter Benjamin in Central Park
-- Taking [photographs](https://adm2216.myportfolio.com/) of friends
+- Deutsches Haus Senior Departmental Prize, one graduating senior a year
+- Data for Good Fellowship, Columbia Data Science Institute
+- Laidlaw Foundation Research Fellowship
+- Berlin Consortium for German Studies Scholar
 
-## Contact Information
+## Contact
 
-Feel free to reach out to discuss research opportunities, collaborations, or just to chat about computational linguistics, information theory, philosophy of history, and literature:
-
-- **Email**: adm2216@columbia.edu
-- **LinkedIn**: [Aaron McKeever](https://linkedin.com/in/aaron-mckeever-75029b179)
+Email works best: [adm2216@columbia.edu](mailto:adm2216@columbia.edu).
+I'm also on [GitHub](https://github.com/adm-2k) and
+[LinkedIn](https://linkedin.com/in/adm2216).
