@@ -12,8 +12,7 @@ lede: >-
 
 - **The Upskilling Labs** (2026–) — Programming & events co-lead. About
   thirty-five events and five hundred participants so far this year; I help
-  maintain the Next.js participant platform and teach a recurring GitHub
-  workshop.
+  maintain the Next.js participant platform and teach a GitHub workshop series.
 - **Civic Tech DC, CIB Mango Tree** (2025–) — Open-source contributor:
   tokenizer improvements, documentation edits, video, and a multilingual-support
   whitepaper in draft.

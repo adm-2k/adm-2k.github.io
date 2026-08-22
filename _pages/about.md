@@ -12,61 +12,48 @@ lede: >-
 
 ## Now
 
-I co-lead programming and events at
-[The Upskilling Labs](https://theupskillinglabs.org) — thirty-five-odd
-events reaching about five hundred people so far this year — and help
-maintain the platform behind the program. I do contract production and
-operations work for Storyboard Studios, a documentary studio: lately video
-editing for a Black Economic Forum event and conference materials for the
-United Justice Coalition. At [Civic Tech DC](https://civictechdc.org) I
-contribute to open-source work alongside a good group of volunteers, and I
-teach a recurring GitHub workshop for people coming to technical work from
-other fields.
+I co-lead programming and events at [The Upskilling Labs](https://theupskillinglabs.org)—where 
+we've run thirty-five+ events reaching about five hundred unique participants within our first year—and help
+maintain the platform behind the program. I am an independent contractor doing
+production and operations work for various clients, including a documentary studio, where edit video and
+developed organizing materials for the nation. At [Civic Tech DC](https://civictechdc.org), 
+I contribute to open-source work alongside a great group of volunteers and lead onboarding.
+Additionally, I teach occassionally on topics from AI/ML to GitHub for non-technical audiences.
 
 ## How I got here
 
-At Columbia I studied information science and German literature at the same
-time, which meant problem sets on one side of campus and seminars on
-Benjamin and Adorno on the other. The two turned out to share a subject.
-My research work — party platforms for a Laidlaw fellowship, a
-hundred-thousand-document public-health corpus at the Health Language Lab —
-used computational methods to ask the seminar's questions: how institutions
-speak, and what that speech does.
+At Columbia, I studied information science and German literature, focusing generally on theories of
+information and collecting, influenced by my professor Dr. Annie Pfeifer and her scholarship on
+Walter Benjamin. My larger research portfolio used computational methods to broaden my epistemic horizons
+on how emerging technologies might be leveraged to provide insights into very heterogeneous and complex discourses. 
 
-The seminar side produced its own work, on its own terms. I did research
-assistance for Dr. Annie Pfeifer's *To the Collector Belong the
+From the humanistic side, I worked as a research assistance for Dr. Annie Pfeifer's *To the Collector Belong the
 Spoils*<span class="sidenote">Full title: *To the Collector Belong the
-Spoils: Modernism and the Art of Appropriation* — on modernist writers as
-collectors, hoarders, and appropriators.</span>, a study of modernist
-writers as collectors and hoarders; my name is in the foreword. Separately,
-at the Freie Universität, I started a project on Fordism's arrival in
+Spoils: Modernism and the Art of Appropriation*</span>, a study of three modernist
+writers/thinkers as collectors and/or hoarders; my contributions are acknowledged in the foreword.
+Separately, at the Freie Universität, I started a project on Fordism's arrival in
 interwar Germany that I'm now picking back up.
 
-Before college I spent a year in Tübingen on a State Department
-exchange<span class="sidenote">CBYX — the Congress-Bundestag Youth Exchange,
+Before college, I spent a year in Tübingen on a State Department
+exchange<span class="sidenote">CBYX—the Congress-Bundestag Youth Exchange,
 a scholarship year in Germany funded by the U.S. State Department and the
-Bundestag.</span>, interning in the Bundestag; during college, another year
-in Berlin at the Freie Universität. German politics is still the example I
-reach for first.
+Bundestag.</span>, interning in the Bundestag with the SPD; during college, I studied a year
+in Berlin at the Freie Universität. Since then, I've spent time traveling and researching
+across Germany, Poland, and the UK, looking at labor archives, museums, and libraries.
 
-The other formative thing was the student newspaper. Three years on the
-Columbia Daily Spectator's product team, the last as section lead, taught me
-how design and engineering argue with each other and how weekly deadlines
-settle the argument. Our readers numbered in the hundreds of thousands and
-did not care about our process.
+Previous to the rise of AI, I worked for three years on the Columbia Daily Spectator's product team,
+the last as section lead, taught me how design and engineering often conflict with each other and how weekly deadlines
+often settle the argument. I worked on several web applications, as well as the website migration. 
 
-After graduating I moved to Washington. The work I care about sits where
-new tools meet public institutions — adopting them critically, and to some
-actual public benefit, rather than because they are new. In practice that
-means fixing a tokenizer some days and running an onboarding session on
-others; I like being the same person for both.
+After graduating I moved to Washington, DC. I've been working in the civic-tech and nonprofit space since,
+where I've had the chance to better the fraught relationship between new tools and existing institutions.
+At The Upskilling Labs, I work with a variety of former federal employees, as we build our non-profit 
+focused on upskilling and workforce development in emerging technologies.
 
 ## Outside work
 
 I photograph people and places
-([a selection](https://adm2216.myportfolio.com/)), wander museums, hike when
-I can, and still reread Walter Benjamin — on the Metro now instead of in
-Central Park.
+([a selection](https://adm2216.myportfolio.com/)), wander museums, and continue to explore the intersections of technology and culture. Currently re-reading, Walter Benjamin's *Selected Writings* and Boris Groy's *Topologie der Aura*. 
 
 ## Recognition
 
